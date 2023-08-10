@@ -65,10 +65,7 @@
                         </select>
              </td>
         </tr>
-        <tr>
-            <th>Quê quán:</th>
-            <td>  <input class="input99" type="text" name="quequan" value="<?php echo $pr['quequan'] ?>"></td>
-        </tr>
+        
         <tr>
             <th>Email:</th>
             <td>  <input class="input99" type="text" name="email" value="<?php echo $pr['email'] ?>"></td>

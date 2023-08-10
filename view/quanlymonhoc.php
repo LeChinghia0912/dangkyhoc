@@ -132,9 +132,8 @@
         <td ><b>STT</b></td>
         <td><b>Mã môn học</b></td>
          <td><b>Môn học</b></td>
-          <td ><b>giảng viên</b></td>
           <td ><b>Số tín chỉ</b></td>
-          <td ><b>Học phí</b></td>
+          <td ><b>Điểm</b></td>
           <td ><b>Sửa</b></td>
           <td ><b>Xóa</b></td>
       </tr>
@@ -156,9 +155,8 @@
                         echo "<td style='text-align:center;'>".$id."</td>";
                          echo "<td>".$row['mamonhoc']."</td>";
                         echo "<td>".$row['tenmonhoc']."</td>";
-                        echo "<td>".$row['giangvien']."</td>";
                         echo "<td>".$row['sotinchi']."</td>";
-                        echo "<td>".$row['hocphi']."</td>";
+                        echo "<td>".$row['diem']."</td>";
                         
                         echo "<td align='center' ><a href='../Controller/update_monhoc.php?mamonhoc=".$mamonhoc."'><img align='center' src='../img/edit.gif'></a></td>";
                         echo "<td align='center'><a href='../Controller/delete_monhoc.php?mamonhoc=".$mamonhoc."'><img align='center' src='../img/delete.gif'></a></td>";

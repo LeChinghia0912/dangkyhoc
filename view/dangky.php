@@ -198,11 +198,9 @@ Tìm kiếm Môn học - Giảng viên:
       <tr align="center" style="height: 30px; width: 500px; text-align: center;background: #009AFF; color: white;">
         <td style="width: 80px"><b>STT</b></td>
         <td style="width: 500px" ><b>Môn học</b></td>
-          <td ><b>Giảng viên</b></td>
           <td style="width: 80px" ><b>Số tín chỉ</b></td>
-          <td width="200px"><b>Học phí</b></td>
+          <td style="width: 80px" ><b>Điếm  </b></td>
            <td width="200px"><b>mô tả </b></td>
-          <td></td>
       </tr>
       <?php 
       $username = $_SESSION['username'] ;
@@ -230,9 +228,8 @@ Tìm kiếm Môn học - Giảng viên:
       echo "<tr style='background: #ffd4aa; height: 30px; vertical-align: middle;'>";
       echo "<td style='text-align:center;'>".$id."</td>";
       echo "<td class='td'>".$row['tenmonhoc']."</td>";
-      echo "<td class='td'>".$row['giangvien']."</td>";
       echo "<td align='center'>".$row['sotinchi']."</td>";
-      echo "<td class='td'>".$row['hocphi']."</td>";
+      echo "<td class='td'>".$row['diem']."</td>";
       echo "<td width='100px' align='center'><a href='../model/xldkmonhoc.php?mamonhoc=".$mamonhoc."'> <img align='center' width='15px' src='../img/add.png'></a></td>";
       echo '</tr>';
     }

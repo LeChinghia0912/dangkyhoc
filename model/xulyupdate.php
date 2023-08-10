@@ -9,13 +9,12 @@
 <?php
 	$mamonhoc=$_POST['mamonhoc'];
 	$tenmonhoc = $_POST['tenmonhoc'];
-	$giangvien = $_POST['giangvien'];
 	$sotinchi = $_POST['sotinchi'];
-	$hocphi = $_POST['hocphi'];
+	$diem = $_POST['diem'];
 
 	include_once("../publish/connect.php");
-	$sql="UPDATE monhoc SET tenmonhoc='$tenmonhoc', giangvien ='$giangvien', sotinchi='$sotinchi',
-	 hocphi='$hocphi' Where mamonhoc='$mamonhoc'";
+	$sql="UPDATE monhoc SET tenmonhoc='$tenmonhoc', sotinchi='$sotinchi',
+	 diem='$diem' Where mamonhoc='$mamonhoc'";
 	$kq=mysqli_query($conn,$sql);
 	if ($kq) {
 		header("http://localhost/dangkyhoc/view/monhoc_view.php");

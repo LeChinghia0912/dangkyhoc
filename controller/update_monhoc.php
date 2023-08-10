@@ -81,17 +81,15 @@
             <th>Tên Môn Học :</th>
             <td><input type="text" name="tenmonhoc" value="<?php echo $ar['tenmonhoc'] ?>"></td>
         </tr>
-         <tr>
-            <th>Giảng Viên:</th>
-            <td><input type="text" name="giangvien" value="<?php echo $ar['giangvien'] ?>"></td>
-        </tr>
+         
         <tr>
             <th>Số tín chỉ:</th>
             <td><input type="text" name="sotinchi" value="<?php echo $ar['sotinchi'] ?>"></td>
         </tr>
+        
         <tr>
-            <th>Học phí:</th>
-            <td><input type="text" name="hocphi" value="<?php echo $ar['hocphi'] ?>"></td>
+            <th>Điểm:</th>
+            <td><input type="text" name="diem" value="<?php echo $ar['diem'] ?>"></td>
         </tr>
 
        <tr>

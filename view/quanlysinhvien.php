@@ -124,7 +124,6 @@
          <td><b>Mật khẩu</b></td>
 				 <td><b>Mã sinh viên</b></td>
           <td ><b>Họ tên</b></td>
-          <td  width="80px" ><b>Giới tinh</b></td>
           <td ><b>Lớp</b></td>
           <td ><b>Email</b></td>
           <td ><b>Sửa</b></td>
@@ -148,7 +147,6 @@
                         echo "<td class='td'>".$row['password']."</td>";
                         echo "<td class='td'>".$row['masinhvien']."</td>";
                         echo "<td class='td'>".$row['hoten']."</td>";
-                        echo "<td class='td'>".$row['gioitinh']."</td>";
                         echo "<td class='td'>".$row['lop']."</td>";
                         echo "<td class='td'>".$row['email']."</td>";
                         echo "<td align='center' ><a href='../Controller/sinhvien.php?masinhvien=".$msv."'><img align='center' src='../img/edit.gif'></a></td>";

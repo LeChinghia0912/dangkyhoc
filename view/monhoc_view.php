@@ -108,9 +108,8 @@
 				<td ><b>STT</b></td>
         <td><b>Mã môn học</b></td>
 				 <td width="400px"><b>Môn học</b></td>
-          <td ><b>giảng viên</b></td>
           <td  width="80px" ><b>Số tín chỉ</b></td>
-          <td ><b>Học phí</b></td>
+          <td ><b>Điểm</b></td>
           <td ><b>Sửa</b></td>
           <td  class='td'><b>Xóa</b></td>
 			</tr>
@@ -129,9 +128,8 @@
                         echo "<td style='text-align:center;'>".$id."</td>";
                         echo "<td class='td'>".$row['mamonhoc']."</td>";
                         echo "<td class='td'>".$row['tenmonhoc']."</td>";
-                        echo "<td class='td'>".$row['giangvien']."</td>";
                         echo "<td align='center'>".$row['sotinchi']."</td>";
-                        echo "<td class='td'>".$row['hocphi']."</td>";
+                        echo "<td class='td'>".$row['diem']."</td>";
                         
                         echo "<td align='center' ><a href='../Controller/update_monhoc.php?mamonhoc=".$mamonhoc."'><img align='center' src='../img/edit.gif'></a></td>";
                         echo "<td align='center'><a href='../Controller/delete_monhoc.php?mamonhoc=".$mamonhoc."'><img align='center' src='../img/delete.gif'></a></td>";

@@ -91,17 +91,15 @@
                         </select>
                       </td>
                 </tr>
-                <tr>
-                    <td>Giảng Viên:</td>
-                    <td><input type="text" name="giangvien"></td>
-                </tr>
+                
                 <tr>
                     <td>Số tín chỉ:</td>
                     <td><input type="text" name="sotinchi"></td>
                 </tr>
+                
                 <tr>
-                    <td>Học phí:</td>
-                    <td><input type="text" name="hocphi"></td>
+                    <td>Điểm:</td>
+                    <td><input type="text" name="diem"></td>
                 </tr>
                 
                 <tr>

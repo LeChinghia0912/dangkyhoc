@@ -14,8 +14,9 @@
 	$sotinchi = $_POST['sotinchi'];
 	$hocphi = $_POST['hocphi'];
 	$makhoa=$_POST['makhoa'];
+	$diem =$_POST['diem'];
 	//$conn=mysqli_connect('localhost','root','','Qlsinhvien') or die('Không kết nối được DB');
-	$sql="INSERT INTO monhoc (mamonhoc,tenmonhoc,giangvien,sotinchi,hocphi,makhoa) VALUES('$mamonhoc','$tenmonhoc','$giangvien','$sotinchi','$hocphi','$makhoa')";
+	$sql="INSERT INTO monhoc (mamonhoc,tenmonhoc,giangvien,sotinchi,hocphi,diem,makhoa) VALUES('$mamonhoc','$tenmonhoc','$giangvien','$sotinchi','$hocphi','$diem','$makhoa')";
 	$kq=mysqli_query($conn,$sql);
 	if ($kq) {
 		include_once('../controller/add_monhoc.php');

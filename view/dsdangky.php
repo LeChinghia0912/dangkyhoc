@@ -184,9 +184,7 @@
         <td><b>STT</b></td>
         <td style="width: 100px"><b>Mã môn học</b></td>
         <td style="width: 500px" ><b>Môn học</b></td>
-          <td ><b>giảng viên</b></td>
           <td style="width: 100px" ><b>Số tín chỉ</b></td>
-          <td ><b>Ghi chú</b></td>
           <td ><b>Xóa</b></td>
       </tr>
       
@@ -208,9 +206,7 @@
                         echo "<td  style='text-align:center;'>".$id."</td>";
                          echo "<td class='td'>".$row['mamonhoc']."</td>";
                         echo "<td class ='td'>".$row['dstenmonhoc']."</td>";
-                        echo "<td class='td'>".$row['dsgiangvien']."</td>";
                         echo "<td align='center'>".$row['dssotinchi']."</td>";
-                        echo "<td class='td'>".$row['dshocphi']."</td>";
                   
                         echo "<td align='center'><a href='../Controller/delete_dsdangky.php?mamonhoc=".$mamonhoc."'><img align='center' src='../img/delete.gif'></a></td>";
                     echo "</tr>";   
